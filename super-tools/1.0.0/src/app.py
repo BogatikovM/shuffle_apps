@@ -42,8 +42,8 @@ import concurrent.futures
 import multiprocessing
 import psycopg2
 
-#from walkoff_app_sdk.app_base import AppBase
-from shuffle_sdk import AppBase
+from walkoff_app_sdk.app_base import AppBase
+#from shuffle_sdk import AppBase
 
 # Override exit(), sys.exit, and os._exit 
 # sys.exit() can be caught, meaning we can have a custom handler for it
@@ -54,7 +54,7 @@ os._exit = sys.exit
 class Tools(AppBase):
     __version__ = "1.2.0"
     app_name = (
-        "Shuffle Tools"  # this needs to match "name" in api.yaml for WALKOFF to work
+        "Super Tools"  # this needs to match "name" in api.yaml for WALKOFF to work
     )
 
     def __init__(self, redis, logger, console_logger=None):
