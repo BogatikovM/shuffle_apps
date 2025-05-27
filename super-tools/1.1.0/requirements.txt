@@ -9,4 +9,5 @@ ipaddress==1.0.23
 google.auth==2.37.0
 paramiko==3.5.0
 psycopg2-binary==2.9.10
+clickhouse-connect==0.8.17
 shuffle-sdk

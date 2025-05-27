@@ -52,7 +52,7 @@ os.exit = sys.exit
 os._exit = sys.exit
 
 class Tools(AppBase):
-    __version__ = "1.0.0"
+    __version__ = "1.1.0"
     app_name = (
         "Super Tools"  # this needs to match "name" in api.yaml for WALKOFF to work
     )
